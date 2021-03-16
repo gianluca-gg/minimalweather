@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="title">
+    <p class="titleWrite">MinimalWeather</p>
+  </div>
+  <div class="weather">
+    <input type="search" list="suggestions" class="weatherSearch" placeholder="your city">
+    <datalist id="suggestions">
+
+    </datalist>
+    <div class="weatherToday">
+      <div class="weatherDetails">
+        <h2 class="weatherCity">City</h2>
+        <p class="weatherDay">Day</p>
+        <div class="weatherCurrent">
+          <p class="weatherIndicator weatherIndicatorUmidity"><span class="value">50</span>%</p>
+          <p class="weatherIndicator weatherIndicatorWind"><span class="value">West, 5</span>m/s</p>
+          <p class="weatherIndicator weatherIndicatorPressure"><span class="value">1050</span>hpa</p>
+        </div>
+      </div>
+      <img src="images/clear-sky.png" alt="clear sky" class="weatherImage">
+      <div class="weatherTemperature"><span class="value">+25</span>°C</div>
+
+    </div>
+    <div class="weatherForecast">
+      <article class="weatherForecastItem">
+        <img src="images/clear-sky.png" alt="" class="weatherForecastIcon">
+        <h3 class="weatherForecastDay">Day</h3>
+        <p class="weatherForecastTemperature"><span class="value">+25</span>°C</p>
+      </article>
+      <article class="weatherForecastItem">
+        <img src="images/clear-sky.png" alt="" class="weatherForecastIcon">
+        <h3 class="weatherForecastDay">Day</h3>
+        <p class="weatherForecastTemperature"><span class="value">+25</span>°C</p>
+      </article>
+      <article class="weatherForecastItem">
+        <img src="images/clear-sky.png" alt="" class="weatherForecastIcon">
+        <h3 class="weatherForecastDay">Day</h3>
+        <p class="weatherForecastTemperature"><span class="value">+25</span>°C</p>
+      </article>
+      <article class="weatherForecastItem">
+        <img src="images/clear-sky.png" alt="" class="weatherForecastIcon">
+        <h3 class="weatherForecastDay">Day</h3>
+        <p class="weatherForecastTemperature"><span class="value">+25</span>°C</p>
+      </article>
+      <article class="weatherForecastItem">
+        <img src="images/clear-sky.png" alt="" class="weatherForecastIcon">
+        <h3 class="weatherForecastDay">Day</h3>
+        <p class="weatherForecastTemperature"><span class="value">+25</span>°C</p>
+      </article>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
